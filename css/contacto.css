@@ -1,0 +1,137 @@
+ /*FORMULARIO PAG CONTACTO*/
+
+#projects article {
+    height: 450px;
+}
+
+#content{
+    justify-content: unset;
+}
+
+#projects{
+    margin: 0 auto;
+    flex-basis: 60%;
+}
+
+ #form-tittle{
+    margin: 5px;
+    font-family: helvetica, sans-serif, arial;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 1px solid rgb(161, 161, 161);
+  }
+
+#form-box{
+  display: flex;
+  flex-direction: column; 
+  margin-left: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 60%;
+    border-radius: 8px;
+  border: 1px solid #c9c9c9;
+  background-color: white;
+  padding: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: gray;
+  transition: all 300ms;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea,
+select:focus {
+  border: 2px solid rgb(75, 3, 69);
+  /* outline porque algunos navegadores traen un contorno por defecto en los input's*/
+  outline: none;
+  color: black;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+  outline: none;
+  font-size: 20px;
+  margin: 0 auto;
+  
+  width: 20%;
+  height: 30px;
+  padding: 3px;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid rgb(139, 2, 128);
+  background-color: rgb(102, 3, 94) ;
+  cursor: pointer;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+  box-shadow: 0 0 2px gray;
+}
+
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+button:active {
+  outline: none;
+  box-shadow: 0 0 3px gray inset;
+  text-shadow: 00 0 1px #cccccc;
+}
+
+textarea{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 50%;
+    height: 180px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+input[type="button"]{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.label{
+   margin: 15px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+#form{
+    display: inline-flexbox;
+}
+
+#form h4{
+    text-align: center;
+    margin: 15px;
+}
+
+.text{
+    text-align: center;
+}
+
+@media(max-width:350px){
+    #projects article {
+        height: 500px;
+    }
+    textarea{
+        width: 80%;
+        margin: auto;
+        margin-right: 10%;
+    }
+
+
+}

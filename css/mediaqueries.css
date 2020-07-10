@@ -1,0 +1,155 @@
+
+@media(min-width:1680px){
+    .project{
+        flex-basis: 280px;
+    }
+}
+
+@media(max-width:1344px){
+    .project {
+        flex-basis: 200px;
+    }
+}
+@media(max-width:1295px){
+    #header{
+        text-align: center;
+    }
+
+    #menu{
+        flex-basis: 35%;
+    }
+
+    #menu > ul{
+         margin-top: 20px;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+}
+
+
+@media(max-width:1239px){
+    .project{
+        flex-basis: 170px;
+    }
+}
+
+@media(max-width:1079px){
+    .project {
+        flex-basis: 150px;
+    }
+}
+
+@media(max-width:974px){
+    .project {
+        flex-basis: 130px;
+    }
+}
+
+@media(max-width:706px){
+    #footer .info{
+        flex-grow: 1;
+        order: 2;
+        flex-basis: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+    #footer .logo{
+        flex-grow: 1;
+        order: 1;
+        margin-left: 20px;
+        flex-basis: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+}
+
+@media(max-width:645px){
+
+    #content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+#aside{
+    margin-right: 0;
+}
+#aside h2{
+    position: inherit;
+}
+#aside ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#aside ul li{
+    flex-grow: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.project{
+    margin-left: 9px;
+    margin-right: 9px;
+    font-size: 1.2em;
+}
+
+.project a{
+    font-size: 1.2em;
+}
+
+    #footer .logo{
+        flex-grow: 1;
+        order: 1;
+        flex-basis: 100%;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media(max-width:488px){
+    .project {
+        flex-basis: 130px;
+    }
+
+}
+
+@media(max-width:442px){
+
+    #menu{
+        margin-top: 15px;
+        padding-right: 0;
+    }
+
+    #content{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:360px){
+    .project{
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+  
+@media(max-width:919px){
+    #projects article {
+           height: 316px;
+       }
+     }
+   
+     @media(max-width:844px){
+       #projects article p{
+           font-size: 15px;
+       }
+     }
